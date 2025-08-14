@@ -87,7 +87,7 @@ console.log('\n--- Atividade 4: Livros de J.R.R. Tolkien publicados após 1950 -
 // ------------------------------------------------------------------------
 
 
-const criarCartoesDeLivros = () => livros.map(({titulo, autor, anoPublicacao}) => ({titulo, autor, anoPublicacao}))
+const criarCartoesDeLivros = () => livros.map(({titulo, autor, anoPublicacao}) => (`Título: ${titulo} | Autor: ${autor} | Ano: ${anoPublicacao}`))
   
 // Teste da Atividade 5
 console.log('\n--- Atividade 5: Cartões de Apresentação dos Livros ---');
